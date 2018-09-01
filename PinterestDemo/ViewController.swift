@@ -19,7 +19,7 @@ class PhotoStreamViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let patternImage = UIImage(named: "Pattern") {
+        if let patternImage = UIImage(named: "pattern-grey") {
             view.backgroundColor = UIColor(patternImage: patternImage)
         }
         collectionView?.backgroundColor = UIColor.clear
